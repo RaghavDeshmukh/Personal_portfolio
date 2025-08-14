@@ -77,16 +77,16 @@ export const PROJECTS = [
       "A Simple Word Document to PDf Document Converter made using Node.js that lets users to covert Word files (.docx, .doc) into the PDF format",
     technologies: ["ExpressJS", "ReactJS", "Node.js", "Multer"],
     projectlink: "https://github.com/RaghavDeshmukh/Wordtopdf",
-    livelink:"https://codeeditor-rust.vercel.app/"
+    livelink:"https://wordtopdf-one.vercel.app/"
   },
   {
     title: "Random Password Generator",
     image: project4,
     description:
-      "A Simple and easy to use Random Password Generator which lets anyone to generate highly secure random password including numbers and special characters",
+      "A Simple and easy to use Random Password Generator which i created during my intial days as a way to practice react",
     technologies: ["ReactJs", "TailwindCSS"],
     projectlink: "https://github.com/RaghavDeshmukh/RandomPasswordGenerator",
-    livelink:"https://codeeditor-rust.vercel.app/"
+    livelink:"https://random-password-generator-plum-kappa.vercel.app/"
   },
 ];
 

@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.png";
+// import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
@@ -43,14 +43,14 @@ export const EDUCATION = [
 ];
 
 export const PROJECTS = [
-  {
-    title: "Chat Application",
-    image: project1,
-    description:
-      "A Fullstack Chat Application which lets users to send and receive messages in real time",
-    technologies: ["MongoDB", "ExpressJS", "ReactJS", "Node.js", "TailwindCSS","SocketIO","JWT"],
-    projectlink: "https://github.com/RaghavDeshmukh/chatapp"
-  },
+  // {
+  //   title: "Chat Application",
+  //   image: project1,
+  //   description:
+  //     "A Fullstack Chat Application which lets users to send and receive messages in real time",
+  //   technologies: ["MongoDB", "ExpressJS", "ReactJS", "Node.js", "TailwindCSS","SocketIO","JWT"],
+  //   projectlink: "https://github.com/RaghavDeshmukh/chatapp"
+  // },
   {
     title: "Courses Selling App",
     image: project2,

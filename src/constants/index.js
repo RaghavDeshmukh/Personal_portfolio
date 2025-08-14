@@ -2,6 +2,7 @@
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `A passionate Web Developer with expertise in Node.js, React.js, and MongoDB, I thrive on turning innovative ideas into impactful web solutions. From building dynamic front-end interfaces to architecting robust back-end systems, I specialize in creating intuitive, scalable, and user-focused applications.
 
@@ -52,12 +53,22 @@ export const PROJECTS = [
   //   projectlink: "https://github.com/RaghavDeshmukh/chatapp"
   // },
   {
+     title: "Code Editor",
+     image: project5,
+     description:
+       "A web-based code editor built with React.js, featuring real-time code editing and instant preview. Designed for seamless user experience, it allows writing, editing, and running code directly in the browser without additional setup.",
+     technologies: ["ReactJS","Monaco Editor","Piston API"],
+     projectlink: "https://github.com/RaghavDeshmukh/react-code-editor",
+     livelink:"https://codeeditor-rust.vercel.app/"
+  },
+  {
     title: "Courses Selling App",
     image: project2,
     description:
       "A Course Selling Web App which lets users to view and purchase courses. Project Contains Users who can can view and buy Courses from the app using the Stripe Payment Gateway, and  admin who can create and delete these Courses",
     technologies: ["MongoDB", "ExpressJS", "ReactJS", "Node.js", "TailwindCSS","Zod","JWT"],
-    projectlink: "https://github.com/RaghavDeshmukh/courseapp"
+    projectlink: "https://github.com/RaghavDeshmukh/courseapp",
+    livelink:"https://codeeditor-rust.vercel.app/"
   },
   {
     title: "Word to PDF Converter",
@@ -65,7 +76,8 @@ export const PROJECTS = [
     description:
       "A Simple Word Document to PDf Document Converter made using Node.js that lets users to covert Word files (.docx, .doc) into the PDF format",
     technologies: ["ExpressJS", "ReactJS", "Node.js", "Multer"],
-    projectlink: "https://github.com/RaghavDeshmukh/Wordtopdf"
+    projectlink: "https://github.com/RaghavDeshmukh/Wordtopdf",
+    livelink:"https://codeeditor-rust.vercel.app/"
   },
   {
     title: "Random Password Generator",
@@ -73,7 +85,8 @@ export const PROJECTS = [
     description:
       "A Simple and easy to use Random Password Generator which lets anyone to generate highly secure random password including numbers and special characters",
     technologies: ["ReactJs", "TailwindCSS"],
-    projectlink: "https://github.com/RaghavDeshmukh/RandomPasswordGenerator"
+    projectlink: "https://github.com/RaghavDeshmukh/RandomPasswordGenerator",
+    livelink:"https://codeeditor-rust.vercel.app/"
   },
 ];
 
